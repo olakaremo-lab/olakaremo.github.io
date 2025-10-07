@@ -1,0 +1,70 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+}
+h2 {
+    text-align: center;
+}
+.hyodyt {
+  background-color: #d9fdd3; 
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.sisalto {
+    width: 70%;
+    margin-left: 2rem;
+}
+
+.haitat {
+  background-color: #ffd6d6; 
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+p {
+  margin-left: 2rem;
+}
+.paakuva {
+  display: block;
+  margin: 1rem auto; 
+  max-width: 100%;    
+  height: auto;
+  width: 200px;       
+}
+@media (max-width: 768px) {
+  .sisalto, section, nav, h1 {
+    padding: 1rem;
+  }
+
+  .paakuva {
+    width: 70%;   
+  }
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .paakuva {
+    width: 90%;     /* vielä pienempi kuva */
+  }
+  nav ul {
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0.5rem 0;
+  }
+
+
+
